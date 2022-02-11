@@ -89,9 +89,15 @@ h1{
   width: 1320px;
   height: 640px;
   margin: 120px auto 0;  
-  background-image: url(../sub1_images/sub1banner.png);
-  font-size: 100px;
+  background-image:url(../sub1_images/sub1banner.png);
+  background-repeat: no-repeat;
+  font-size: 21px;
+  color: #fff;
+  box-sizing: border-box;
+  padding-top: 375px;
+  text-align: center;
 
+  font-weight: 500;
 }
 
 /*section1*/
@@ -189,11 +195,6 @@ h2{
   left:734px
 }
 
-#ww{
-  background-color: aqua;
-  width: 500px;
-  height: 500px;
-}
 
 /*section3*/
 #section3{

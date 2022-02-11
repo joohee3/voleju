@@ -9,8 +9,8 @@
 		
 		<link href="css/style.css" rel="stylesheet" type="text/css">	
 
-		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	
@@ -28,6 +28,8 @@
 		<link rel="stylesheet" type="text/css" href="js/slick-theme_.css">
 		<link rel="stylesheet" type="text/css" href="css/insta_style.css">
 		
+		<!--하단 띠배너-->
+
 	</head>
 	<body>
 
@@ -46,13 +48,13 @@
 							-->
 						</li>
 						<li>
-							<a href="#">products</a>						
+							<a href="sub2/sub2.html">products</a>						
 						</li>
 						<li>
-							<a href="#">hair test</a>
+							<a href="sub3/sub3.html">hair test</a>
 						</li>
 						<li>
-							<a href="#">membership</a>
+							<a href="sub4/sub4.html">membership</a>
 						</li>
 					</ul>
 					<ul id="util">
@@ -67,8 +69,8 @@
 			<!-- Swiper -->
 				 <div class="swiper-container">
 				 <div class="swiper-wrapper" style="max-width:100%;">
-					 <div class="swiper-slide"><a href="sub1/sub1.html"><img src="images/banner.png" alt="배너1"></a></div>
-					 <div class="swiper-slide"><a href="#"><img src="images/mainbanner_products.png" alt="배너2"></a></div>
+					 <div class="swiper-slide"><a href="sub3/sub3.html"><img src="images/banner.png" alt="배너1"></a></div>
+					 <div class="swiper-slide"><a href="sub2/sub2.html#section1"><img src="images/mainbanner_products.png" alt="배너2"></a></div>
 					 <div class="swiper-slide"><a href="sub1/sub1.html#section2_wrap"><img src="images/mainbanner_lab.png" alt="배너3"></a></div>
 					 <div class="swiper-slide"><a href="sub1/sub1.html#section3"><img src="images/mainbanner_ingredients.png" alt="배너4"></a></div>
 				 </div>
@@ -104,7 +106,7 @@
 			<h2>Best Sellers</h2>
 			<ul id="products">
 				<li>
-					<a href="#">
+					<a href="sub2/sub2.html#section1">
 						<div class="p_imgbox">
 							<img src="images/product1.png" alt="product1">
 						</div>					
@@ -112,7 +114,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="sub2/sub2.html#section1">
 						<div class="p_imgbox">				
 							<img src="images/product2.png" alt="product2">
 						</div>	
@@ -120,7 +122,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="sub2/sub2.html#section1">
 						<div class="p_imgbox">	
 							<img src="images/product3.png" alt="product3">
 						</div>
@@ -128,7 +130,7 @@
 					</a>	
 				</li>
 				<li>
-					<a href="#">
+					<a href="sub2/sub2.html#section1">
 						<div class="p_imgbox">	
 							<img src="images/product4.png" alt="product4">
 						</div>
@@ -157,7 +159,7 @@ make your hair profile<br><br>
 Voleju will find the right<br>
 ingredietns and formula
 					<p class="btn">
-						<a href="#">Take the hair test</a>
+						<a href="sub3/sub3.html">Take the hair test</a>
 					</p>
 				</div>
 
@@ -199,7 +201,7 @@ ingredietns and formula
 
 <!--section4-->
 		<div id="section4">
-			<p class="btn"><a href="#">discover</a></p>
+			<p class="btn"><a href="sub4/sub4.html">discover</a></p>
 		</div>
 
 <!--section5-->
@@ -263,6 +265,46 @@ ingredietns and formula
 		</div>
 
 
+		<div id="b_banner">
+			<section class="regular slider" id="bslider">
+				<div>
+					custom
+				</div>
+				<div>
+					personal
+				</div>
+				<div>
+					organic
+				</div>
+				<div>
+					natural
+				</div>
+				<div>
+					haircare
+				</div>
+				<div>
+					voleju
+				</div>
+				<div>
+					custom
+				</div>
+				<div>
+					personal
+				</div>
+				<div>
+					organic
+				</div>
+				<div>
+					natural
+				</div>
+				<div>
+					haircare
+				</div>
+				<div>
+					voleju
+				</div>
+			</section>
+		</div>
 
 <!--moving-->
 		<div id= "moving">
@@ -322,10 +364,27 @@ slidesToShow: 4, /* 화면에 보여질 이미지 갯수*/
 slidesToScroll: 1,  /* 스크롤시 이동할 이미지 갯수 */         
 autoplay: true, /* 자동으로 다음이미지 보여주기 */         
 arrows: true, /* 화살표 */         
-dots:true, /* 아래점 */         
-autoplaySpeed:2000,/* 다음이미지로 넘어갈 시간 */         
+dots:false, /* 아래점 */         
+autoplaySpeed:3000,/* 다음이미지로 넘어갈 시간 */         
 speed:1000 , /* 다음이미지로 넘겨질때 걸리는 시간 */         
 pauseOnHover:true, /* 마우스 호버시 슬라이드 이동 멈춤 */        
+//vertical:true,/* 세로방향으로 슬라이드를 원하면 추가하기// 기본값 가로방향 슬라이드*/        
+			 });
+
+	});
+</script>
+<!--하단띠배너-->
+<script type="text/javascript">
+	$(document).on('ready', function() {
+$("#bslider").slick({infinite: true , /* 맨끝이미지에서 끝나지 않고 다시 맨앞으로 이동 */         
+slidesToShow: 11, /* 화면에 보여질 이미지 갯수*/        
+slidesToScroll: 1,  /* 스크롤시 이동할 이미지 갯수 */         
+autoplay: true, /* 자동으로 다음이미지 보여주기 */         
+arrows: false, /* 화살표 */         
+dots:false, /* 아래점 */         
+autoplaySpeed:0,/* 다음이미지로 넘어갈 시간 */         
+speed:3000 , /* 다음이미지로 넘겨질때 걸리는 시간 */         
+pauseOnHover:false, /* 마우스 호버시 슬라이드 이동 멈춤 */        
 //vertical:true,/* 세로방향으로 슬라이드를 원하면 추가하기// 기본값 가로방향 슬라이드*/        
 			 });
 

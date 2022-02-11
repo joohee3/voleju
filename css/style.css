@@ -120,12 +120,12 @@ overflow: hidden;
 }
 
 .p_imgbox img{
-transition:all 0.5s;
+transition:all 0.3s;
 }
 
 #products li a:hover .p_imgbox img{
-  transform:scale(1.05,1.05);
-  transition:all 0.5s;
+  transform:scale(1.1,1.1);
+  transition:all 0.3s;
 }
 
 h3{
@@ -191,6 +191,7 @@ text-transform: uppercase;
 font-size: 13px;
 background-color: #000;
 margin-top: 35px;
+transition: all 0.5s;
 }
 
 .btn a{
@@ -201,6 +202,7 @@ margin-top: 35px;
 .btn:hover{
   background-color: rgba(0,0,0,0);
   border: 1px solid #222;
+  transition: all 0.5s;
 }
 .btn:hover a{
   color:#222;
@@ -381,6 +383,29 @@ height:400px;
 margin:200px 0;
 
 }
+
+#section6 img{
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+
+#b_banner{
+
+}
+
+#bslider{
+  width: 100%;
+  margin:0 auto;
+  background-color: #4d2e72;
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  height: 40px;
+  padding-top: 10px;
+
+}
+
 
 /*moving*/
 /*4d2e72 ad9dc1*/
