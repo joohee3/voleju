@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=1600">
+		<title></title>
+		<link rel="icon" type="image/png" sizes="32x32" href="../images/forfavicon.png">
+		
+		<link href="style_sub4.css" rel="stylesheet" type="text/css">	
+
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+		<!--헤더스크롤-->
+		<script src="../js/headerscroll.js"></script>
+		
+		<!--a on scroll-->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+		<script src="../js/aos_script.js"></script>
+		<script src="../js/jquery-1.12.3.js"></script>
+		
+		<!--클릭이벤트-->
+		<script>
+			$(function(){          
+						$(".options li").click(function(){
+							 $(".options li").css({"background-color":"#000","color":"#fff"});
+							 $(this).eq(0).siblings().css({"background-color":"#fff","color":"#222"});
+						});	
+				});			
+		</script>
+		
+		<!--
+			배경이미지 ,"background":"url(../images/forfavicon.png)", 'background-repeat' : 'no-repeat','background-size' : '20px 20px'
+		-->
+
+	</head>
+
+
+<!--header-->
+		<div id="header_wrap">
+			<div id="header">
+				<h1><a href="../index.html"><img src="../images/h1.png" alt="logo"></a></h1>
+				<ul id="gnb">
+					<li>
+						<a href="../sub1/sub1.html">about</a>
+					</li>
+					<li>
+						<a href="../sub2/sub2.html">products</a>						
+					</li>
+					<li>
+						<a href="../sub3/sub3.html">hair test</a>
+					</li>
+					<li>
+						<a href="#">membership</a>
+					</li>
+				</ul>
+				<ul id="util">
+					<li><a href="#">sign in</a></li>
+					<li><a href="#">eng</a></li>
+				</ul>
+			</div>
+		</div>
+<!--banner-->
+		<div id="banner">
+	
+		</div>
+<!--section1-->
+		<div id="section1">
+			<h2>
+				Welcome to Voleju Membership. Join us and enjoy special benefits!</h2>
+			<div class="Memebers all">
+				
+				<h3>For All Memebers</h3>
+				<ul class="benefits">
+					<li>
+						<img src="../sub4_images/20off_fit.png" alt="">	<br><br>
+						20% off subscription</li>
+					<li>
+						<img src="../sub4_images/delivery_fit.png" alt=""><br><br><br>
+						free delivery</li>
+					<li>
+						<img src="../sub4_images/sample_fit.png" alt=""><br><br>
+						samples with any order</li>
+				</ul>
+			</div>
+
+			<div class="Memebers gold">
+				
+				<h3>For <span>Gold</span> Memebers</h3>
+				<ul class="benefits">
+					<li>
+						<img src="../sub4_images/specialedition_fit.png" alt="">	<br><br>
+						special edition</li>
+					<li>
+						<img src="../sub4_images/spa_fit.png" alt=""><br><br>
+						voleju hair spa coupon</li>
+					<li>
+						<img src="../sub4_images/birthday_fit.png" alt=""><br><br>
+						birthday gift</li>
+				</ul>
+			</div>
+
+		</div>
+
+<!--section2-->
+		<div id="section2">
+			<h4>create an account</h4>
+			<p>first name</p>
+			<input type="text" name="firstname">
+			<p>last name</p>
+			<input type="text" name="lastname">
+			<p>email</p>
+			<input type="email" name="lastname">
+			<p>password</p>
+			<input type="password" name="lastname">
+			<button type="submit">Creat my account</button>
+		</div>
+
+
+
+<script>
+	$(function(){
+
+	
+$(".right> li> .q").click(function(){
+	$(this).next().slideToggle();
+});
+
+
+
+});
+
+$(function(){
+$(".right> li> ul").click(function(){
+	$(this).children().children("img").toggleClass("turn");
+});
+});
+
+</script>
+
+<!--section3-->
+		<div id="section3">
+			<h4>FAQ</h4>
+		
+			<div class="faqs">
+
+				<ul class="right">
+					<li><!--Q1-->
+						<p class="notice_line">
+						<ul class="q">
+							<li class="font_10 c"><p>Q</p></li>
+							<li class="question_t"><div class="noc_po">What is the Voleju membership?</div></li>
+							<li class="plus"><img src="../sub4_images/key.png" alt="plus"></li>
+						</ul>
+						<div class="text_info">
+							<p class="answer">A</p>
+							<p>
+								It’s a subscription & loyalty program. <br>
+If you join it and subsribe the product, 20% will be decuted.<br> 
+You can also get other rewards described in this page.<br>
+
+							</p>
+						</div>
+						<p class="notice_line"></p>
+					</li>
+					<li><!--Q3-->
+						<ul class="q">
+							<li class="font_10"><p>Q</p></li>
+							<li class="question_t"><div class="noc_po">How do I join the memership program? </div></li>
+							<li class="plus"><img src="../sub4_images/key.png" alt="plus"></li>
+						</ul>
+						<div class="text_info">
+							<p class="answer">A</p>
+							<p>
+								You can simply create an account and will automatically become a member.<br><br>
+							</p>
+						</div>
+						<p class="notice_line"></p>
+					</li>
+					<li><!--Q4-->
+						<ul class="q">
+							<li class="font_10"><p>Q</p></li>
+							<li class="question_t"><div class="noc_po">How can I be a gold member?</div></li>
+							<li class="plus"><img src="../sub4_images/key.png" alt="plus"></li>
+						</ul>
+						<div class="text_info">
+							<p class="answer">A</p>
+							<p>
+								You have to maintain your subscription for three months.
+							</p>
+						</div>
+						<p class="notice_line"></p>
+					</li>
+					<li><!--Q5-->
+						<ul class="q">
+							<li class="font_10"><p>Q</p></li>
+							<li class="question_t"><div class="noc_po">How can I recieve exclusive offers? </div></li>
+							<li class="plus"><img src="../sub4_images/key.png" alt="plus"></li>
+						</ul>
+						<div class="text_info">
+							<p class="answer">A</p>
+							<p>
+								We will send you the link via email.
+							</p>
+						</div>
+						<p class="notice_line"></p>
+					</li>
+				</ul>
+			</div><!--faqs End-->
+			<p class="emailus">Please contact us via <span class="bold">cs@voleju.com</span> if you have any other question.</p>
+		</div><!--section_end-->
+	
+	
+
+
+<!--moving-->
+		<div id= "moving">
+			<p>custom personal natural organic custom personal natural organic  </p>
+		</div>
+
+<!--footer-->
+		<div id="footer_wrap">
+			<div id="footer">
+				<ul id="footerg">
+					<li><a href="#">Customer support</a></li>
+					<li><a href="#">Store locator</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Terms of service</a></li>
+					<li><a href="#">Privacy policy</a></li>					
+				</ul>
+
+				<p class="copyright">© 2022 VOLEJU. All Rights Resrved.</p>
+
+				<div class="footer_r">
+
+					<div class="news">
+						<p>	Newsletter</p>
+						<input type="email" id="newsletter" size="" placeholder="email address">
+						<input type="button" class="submit_b" value="submit"></input> 
+					</div>
+		
+					<div class="follow">Follow us
+						<ul id="social">
+							<li><a href="#"><img src="../images/social_in.png" alt=""></a></li>
+							<li><a href="#"><img src="../images/social_f.png" alt=""></a></li>
+							<li><a href="#"><img src="../images/social_y.png" alt=""></a></li>
+							<li><a href="#"><img src="../images/social_t2.png" alt=""></a></li>
+						</ul>
+					</div>
+				
+					<p class="tel"> 82 10 5093 0689</p>
+					<p class="mail"> voleju@voleju.com</p>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+

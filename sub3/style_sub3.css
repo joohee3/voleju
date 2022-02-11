@@ -1,0 +1,282 @@
+
+*{margin:0;padding:0;}
+ul{list-style: none;}
+a{
+  color:#222;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color:#222;
+  line-height: 1.8em;
+  margin: 0;
+  letter-spacing: 0.01em;
+  word-spacing: 0.1em;
+  min-width:1320px;
+}
+
+
+#header_wrap{
+  width:100%;
+  height:110px;
+
+  position:fixed;
+  left:0; top:0; right:0;
+  z-index: 998;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+
+#header_wrap.header_wrap-scrolled {
+  border-bottom: 2px solid #ccc;
+  transition: all 0.5s;
+}
+
+#header{
+  width: 1320px;
+  margin: 0 auto;
+  height: 100%;
+}
+h1{
+  padding-top: 15px;
+  float:left;
+
+}
+#gnb{
+  float:left;
+  padding-left:30px;
+}
+#gnb>li{
+  float:left;
+  padding-top: 30px;
+}
+#gnb>li>a{
+  display: block;
+  background-color: ;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding:16px 20px 36px;
+  word-spacing: 0.2em;
+  color:#666;
+}
+
+#gnb>li>a:hover{
+  color:rgb(14, 0, 27);
+}
+
+#util{
+  float:right;
+}
+#util li{
+  float:left;
+  padding-top: 30px;
+}
+#util li a{
+  display: block;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding:16px 0 36px 14px;
+  color:#555;
+}
+#util li a:hover{
+  color:rgb(14, 0, 27);
+}
+
+/*banner*/
+#banner{
+  width: 1320px;
+  height: 640px;
+  margin: 120px auto 0;  
+  background-image: url(../sub3_images/hairtestb\(640\)2.png);
+  font-size: 100px;
+
+}
+
+/*section1*/
+
+
+#section1{
+  width:1000px;
+  margin:200px auto;
+  overflow: hidden;
+  padding:50px 0 100px;
+  border:2px solid #444;
+  text-align: center;
+  font-size: 16px;
+}
+.question{
+  padding:100px 0;
+
+}
+h2{
+  font-size: 28px;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  padding: 20px 0 100px;
+}
+
+
+.options{
+  width: 680px;
+  margin: 0 auto;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  overflow: hidden;
+}
+.options li{
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 260px;
+  height: 60px;
+  padding-top: 18px;
+  box-sizing: border-box;
+  float: left;
+  margin: 0 40px 30px 40px;
+  cursor: pointer;
+}
+
+.three{
+  width:350px;
+}
+
+.testsubmit{
+  display: inline-block;
+  width:240px;
+  height: 60px;
+  background-color: #000;
+  color:#fff;
+  text-transform: uppercase;
+  padding-top: 20px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+.testsubmit:hover {
+border: 1px solid #000;
+background-color: rgb(255, 255, 255);
+color:#000;
+transition: all 0.5s;
+}
+
+
+
+/*moving*/
+/*4d2e72 ad9dc1*/
+#moving{
+  height:40px;
+  background-color: #ad9dc1;
+  padding:10px;
+  box-sizing: border-box;
+
+
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing:0.2em;
+  word-spacing: 4em;
+
+}
+
+
+/*footer*/
+
+#footer_wrap{
+  height: 330px;
+  background-color: #000;
+}
+#footer{
+  width:1320px;
+  margin: 0 auto;
+  height:100%;
+  color:#fff;
+  position: relative;
+  background-image: url(../images/footerlogo.png);
+  background-repeat: no-repeat;
+  background-position:560px 210px;
+}
+
+#footerg{
+  float:left;
+  padding-top:40px;
+}
+#footerg li a{
+  display:inline-block;
+  padding:7px 0;
+  color:#fff;
+  font-size:;
+}
+#footerg li a:hover{
+  font-weight: bold;
+}
+
+
+.copyright{
+  position: absolute;
+  bottom:30px;
+  left:520px;
+  
+}
+
+
+.footer_r{
+  float:right;
+}
+
+.news p{
+  margin:40px 0 10px;
+}
+
+#newsletter{
+  width:170px;
+  height: 26px;
+  background:none;
+  border:none;
+  border-bottom: 2px solid #fff;
+  color:#fff;
+}
+
+.submit_b{
+  width:60px;
+  height:30px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: black;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 5px;
+  
+}
+
+.follow{
+  padding-top:30px;
+}
+
+#social{
+  padding-top: 10px;
+}
+#social li{
+  float: left;
+  padding-right:15px;
+}
+#social li a{
+  display:inline-block;
+  opacity: 0.7;
+}
+
+#social li a:hover{
+  opacity:1;
+}
+
+.tel{
+  background-image: url(../images/tel.png);
+  background-repeat: no-repeat;
+  background-position: 0px 4px;
+  padding-left: 30px;
+  margin: 50px 0 5px;
+}
+.mail{
+  background-image: url(../images/email5.png);
+  background-repeat: no-repeat;
+  background-position: 0px 4px;
+  padding-left: 30px;
+}
