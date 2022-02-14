@@ -171,7 +171,8 @@ h4{
   height: 36px;
   background-color: #eee;
   border: none;
-  margin:5px 0 25px
+  margin:5px 0 25px;
+	outline:none;
 }
 #section2 button{
 background-color: #111;
