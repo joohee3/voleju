@@ -409,22 +409,22 @@ margin:200px 0;
 
 /*moving*/
 /*4d2e72 ad9dc1*/
+/*  word-spacing: 4em;
+  text-transform: uppercase;
+    letter-spacing:0.2em;
+*/
 #moving{
   height:40px;
-  background-color: #ad9dc1;
+  background-color: #4d2e72;
   padding:10px;
   box-sizing: border-box;
 
-
+  text-align: center;
   color:#fff;
-  text-transform: uppercase;
-  letter-spacing:0.2em;
-  word-spacing: 4em;
-}
-#moving p{
-  width:100%;
-}
+  letter-spacing:0.1em;
 
+
+}
 
 /*footer*/
 
