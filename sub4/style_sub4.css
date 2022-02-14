@@ -279,28 +279,11 @@ transition: all 0.5s;
 
 
 
-.testsubmit{
-  display: inline-block;
-  width:240px;
-  height: 60px;
-  background-color: #000;
-  color:#fff;
-  text-transform: uppercase;
-  padding-top: 20px;
-  box-sizing: border-box;
-  transition: all 0.5s;
-}
-.testsubmit:hover {
-border: 1px solid #000;
-background-color: rgb(255, 255, 255);
-color:#000;
-transition: all 0.5s;
-}
-
 
 
 /*moving*/
 /*4d2e72 ad9dc1*/
+/*
 #moving{
   height:40px;
   background-color: #ad9dc1;
@@ -312,6 +295,19 @@ transition: all 0.5s;
   text-transform: uppercase;
   letter-spacing:0.2em;
   word-spacing: 4em;
+
+}
+*/
+#moving{
+  height:40px;
+  background-color: #4d2e72;
+  padding:10px;
+  box-sizing: border-box;
+
+  text-align: center;
+  color:#fff;
+  letter-spacing:0.1em;
+
 
 }
 

@@ -197,6 +197,7 @@ span{
 
 /*moving*/
 /*4d2e72 ad9dc1*/
+/*
 #moving{
   height:40px;
   background-color: #ad9dc1;
@@ -208,6 +209,18 @@ span{
   text-transform: uppercase;
   letter-spacing:0.2em;
   word-spacing: 4em;
+}
+*/
+#moving{
+  height:40px;
+  background-color: #4d2e72;
+  padding:10px;
+  box-sizing: border-box;
+
+  text-align: center;
+  color:#fff;
+  letter-spacing:0.1em;
+
 
 }
 
