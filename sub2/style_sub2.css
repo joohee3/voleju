@@ -192,7 +192,16 @@ span{
   padding-top: 10px;
   box-sizing: border-box;
   margin-left:20px;
+  transition:  all 0.5s;
 }
+
+.shopbtn:hover{
+  border: 1px solid #000;
+  background-color: #fff;
+  color:#000;
+  transition:  all 0.5s;
+}
+
 
 
 /*moving*/
